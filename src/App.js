@@ -7,6 +7,8 @@ import HomePage from "./page/home-page/homepage.component";
 import Aboutpage from "./components/about-page/aboutpage.component";
 import Skillspage from "./components/Skills/skills-page/skills.component";
 import Blogpage from "./components/blog-page/blog.component";
+import Projectpage from "./components/projects-page/project.component";
+import Mailingpage from "./components/contact-page/contact.component";
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
         <Route path="/about" component={Aboutpage} />
         <Route path="/skills" component={Skillspage} />
         <Route path="/blog" component={Blogpage} />
+        <Route path="/contact" component={Mailingpage} />
+        <Route path="/projects" component={Projectpage} />
+
         {/* <Route path="/projects" component={ProjectsPage} />
         <Route path="/skills" component={SkillsPage} />
         <Route path="/blog" component={BlogPage} />

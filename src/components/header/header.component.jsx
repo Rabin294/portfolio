@@ -8,6 +8,7 @@ const Header = () => (
   //Logo container when clicked will direct us to homepage
   <div className="header">
     <Link className="logo-container" to="/">
+      HOME
       <Logo className="logo" />
     </Link>
 
