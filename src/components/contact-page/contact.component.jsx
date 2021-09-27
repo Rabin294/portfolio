@@ -19,6 +19,7 @@ const Mailingpage = () => {
       )
       .then(
         (result) => {
+          alert("Message has been sent 👍.");
           console.log(result.text);
         },
         (error) => {
