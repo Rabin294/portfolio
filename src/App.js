@@ -21,11 +21,7 @@ function App() {
         <Route path="/blog" component={Blogpage} />
         <Route path="/contact" component={Mailingpage} />
         <Route path="/projects" component={Projectpage} />
-
-        {/* <Route path="/projects" component={ProjectsPage} />
-        <Route path="/skills" component={SkillsPage} />
-        <Route path="/blog" component={BlogPage} />
-        <Route path="/contact" component={ContactPage} />  */}
+        
       </Switch>
     </div>
   );

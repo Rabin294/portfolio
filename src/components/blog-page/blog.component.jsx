@@ -8,66 +8,33 @@ const Blogpage = () => (
       <div className="blog-item">
         <div className="blog-content">
           <h1 className="blog-title"> Day 1</h1>
-          <span className="blog-subtitle">
-            A blog (a truncation of "weblog")[1] is a discussion or
-            informational website published on the World Wide Web consisting of
-            discrete, often informal diary-style text entries (posts). Posts are
-            typically displayed in reverse chronological order, so that the most
-            recent post appears first, at the top of the web page. Until 2009,
-            blogs were usually the work of a single individual,[citation needed]
-            occasionally of a small group, and often covered a single subject or
-            topic. In the 2010s, "multi-author blogs" (MABs) emerged, featuring
-            the writing of multiple authors and sometimes professionally edited.
-            MABs from newspapers, other media outlets, universities, think
-            tanks, advocacy groups, and similar institutions account for an
-            increasing quantity of blog traffic. The rise of Twitter and other
-            "microblogging" systems helps integrate MABs and single-author blogs
-            into the news media. Blog can also be used as a verb, meaning to
-            maintain or add content to a blog.
-          </span>
+          <span className="blog-subtitle">Write here.</span>
         </div>
       </div>
       <div className="blog-item">
         <div className="blog-content">
           <h1 className="blog-title"> Day 2</h1>
-          <span className="blog-subtitle">
-            A blog (a truncation of "weblog")[1] is a discussion or
-            informational website published on the World Wide Web consisting of
-            discrete, often informal diary-style text entries (posts). Posts are
-            typically displayed in reverse chronological order, so that the most
-            recent post appears first, at the top of the web page. Until 2009,
-            blogs were usually the work of a single individual,[citation needed]
-            occasionally of a small group, and often covered a single subject or
-            topic. In the 2010s, "multi-author blogs" (MABs) emerged, featuring
-            the writing of multiple authors and sometimes professionally edited.
-            MABs from newspapers, other media outlets, universities, think
-            tanks, advocacy groups, and similar institutions account for an
-            increasing quantity of blog traffic. The rise of Twitter and other
-            "microblogging" systems helps integrate MABs and single-author blogs
-            into the news media. Blog can also be used as a verb, meaning to
-            maintain or add content to a blog.
-          </span>
+          <span className="blog-subtitle">Write here.</span>
         </div>
       </div>
       <div className="blog-item">
         <div className="blog-content">
           <h1 className="blog-title"> Day 3</h1>
           <span className="blog-subtitle">
-            A blog (a truncation of "weblog")[1] is a discussion or
-            informational website published on the World Wide Web consisting of
-            discrete, often informal diary-style text entries (posts). Posts are
-            typically displayed in reverse chronological order, so that the most
-            recent post appears first, at the top of the web page. Until 2009,
-            blogs were usually the work of a single individual,[citation needed]
-            occasionally of a small group, and often covered a single subject or
-            topic. In the 2010s, "multi-author blogs" (MABs) emerged, featuring
-            the writing of multiple authors and sometimes professionally edited.
-            MABs from newspapers, other media outlets, universities, think
-            tanks, advocacy groups, and similar institutions account for an
-            increasing quantity of blog traffic. The rise of Twitter and other
-            "microblogging" systems helps integrate MABs and single-author blogs
-            into the news media. Blog can also be used as a verb, meaning to
-            maintain or add content to a blog.
+            Redux:
+            <br /> Action goes into root-reducer, that updates the store and
+            finally the DOM gets changed in the right component.
+            <br /> We need to install Redux and Redux bindings for React. We
+            also need the Redux Lugger Middle ware. <br />
+            [npm add redux redux-logger react-redux] <br />
+            Index.js is the file where we will put the new component that we get
+            from react-redux, that will give our application access to reducers
+            and store. "Provider" is the component that we get from react-redux
+            and is the parent componet that we get access to everything.Now that
+            we have our provider, we actually need to write the store itself.we
+            are going to make a new folder inside of our source called Redox,
+            and inside of here it will be all the code related to our redux that
+            we're going to write. Redux is used in big applications.
           </span>
         </div>
       </div>
@@ -75,21 +42,15 @@ const Blogpage = () => (
         <div className="blog-content">
           <h1 className="blog-title"> Day 4</h1>
           <span className="blog-subtitle">
-            A blog (a truncation of "weblog")[1] is a discussion or
-            informational website published on the World Wide Web consisting of
-            discrete, often informal diary-style text entries (posts). Posts are
-            typically displayed in reverse chronological order, so that the most
-            recent post appears first, at the top of the web page. Until 2009,
-            blogs were usually the work of a single individual,[citation needed]
-            occasionally of a small group, and often covered a single subject or
-            topic. In the 2010s, "multi-author blogs" (MABs) emerged, featuring
-            the writing of multiple authors and sometimes professionally edited.
-            MABs from newspapers, other media outlets, universities, think
-            tanks, advocacy groups, and similar institutions account for an
-            increasing quantity of blog traffic. The rise of Twitter and other
-            "microblogging" systems helps integrate MABs and single-author blogs
-            into the news media. Blog can also be used as a verb, meaning to
-            maintain or add content to a blog.
+            React Hooks: <br />
+            We can't use hooks in Class components. We can only use it in
+            functional components. We only get access if the react version is
+            16.8.6 or higher. <br />
+            ①useState: <br />
+            ②useEffect: It give us ability to fire the side effects.
+            <br />
+            ③useState:
+            <br />
           </span>
         </div>
       </div>
@@ -97,21 +58,65 @@ const Blogpage = () => (
         <div className="blog-content">
           <h1 className="blog-title"> Day 5</h1>
           <span className="blog-subtitle">
-            A blog (a truncation of "weblog")[1] is a discussion or
-            informational website published on the World Wide Web consisting of
-            discrete, often informal diary-style text entries (posts). Posts are
-            typically displayed in reverse chronological order, so that the most
-            recent post appears first, at the top of the web page. Until 2009,
-            blogs were usually the work of a single individual,[citation needed]
-            occasionally of a small group, and often covered a single subject or
-            topic. In the 2010s, "multi-author blogs" (MABs) emerged, featuring
-            the writing of multiple authors and sometimes professionally edited.
-            MABs from newspapers, other media outlets, universities, think
-            tanks, advocacy groups, and similar institutions account for an
-            increasing quantity of blog traffic. The rise of Twitter and other
-            "microblogging" systems helps integrate MABs and single-author blogs
-            into the news media. Blog can also be used as a verb, meaning to
-            maintain or add content to a blog.
+            GraphQL:
+            <br />
+            GraphQL is actually a server language,that wraps around an existing
+            database or server that you can make requests against in a different
+            way from the way that we have been up until this point.
+            <a
+              style={{
+                textDecoration: "underline",
+                color: "blue",
+              }}
+              target="blank"
+              href="https://graphql.org/"
+            >
+              Click here to learn moer.
+            </a>
+          </span>
+        </div>
+      </div>
+      <div className="blog-item">
+        <div className="blog-content">
+          <h1 className="blog-title"> Day 6</h1>
+          <span className="blog-subtitle">
+            GatsbyJS Blog:
+            <br />
+            Gatsby enables developers to build fast, secure, and powerful
+            websites using a React-based framework and innovative data layer
+            that makes integrating different content, APIs, and services into
+            one web experience incredibly simple.
+            <a
+              style={{
+                textDecoration: "underline",
+                color: "blue",
+              }}
+              target="blank"
+              href="https://www.gatsbyjs.com/"
+            >
+              Click here to learn moer.
+            </a>
+          </span>
+        </div>
+      </div>
+      <div className="blog-item">
+        <div className="blog-content">
+          <h1 className="blog-title"> Day 7</h1>
+          <span className="blog-subtitle">
+            Sending emails using React through EmailJs:
+            <br />
+            Today I learned the way of sending email just using emailjs, without
+            using backend.
+            <a
+              style={{
+                textDecoration: "underline",
+                color: "blue",
+              }}
+              target="blank"
+              href="https://www.emailjs.com/"
+            >
+              Click here to learn moer.
+            </a>
           </span>
         </div>
       </div>

@@ -1,27 +1,59 @@
 import React from "react";
+
+import emailjs from "emailjs-com";
+
 import "./contact.styles.scss";
 
-const Mailingpage = () => (
-  <div className="contact">
-    <div className="contact-menu">
-      <div className="contact-item">
-        <div>
-          <h1>Contact Us</h1>
-          <form>
-            <label htmlFor="">Name</label>
-            <input type="text" name="name" />
+const Mailingpage = () => {
+  // const form = useRef();
 
-            <label htmlFor="">Email</label>
-            <input type="email" name="user_email" />
+  function sendEmail(e) {
+    e.preventDefault();
 
-            <label htmlFor="">Message</label>
-            <textarea name="message" id="" cols="30" rows="10"></textarea>
-            <input type="submit" value="send" />
-          </form>
-        </div>
+    emailjs
+      .sendForm(
+        "service_u44j8wt",
+        "template_2r5k9oh",
+        e.target,
+        "user_n89LI9gpraiCCFDf9ggaM"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  }
+
+  return (
+    <div>
+      <div className="container">
+        <h2>Contact Us</h2>
+        <form onSubmit={sendEmail}>
+          <div className="input-field">
+            <input type="text" name="name" required="" />
+            <label>Name</label>
+          </div>
+          <div className="input-field">
+            <input type="email" name="email" required="" />
+            <label>Email</label>
+          </div>
+          <div className="input-field">
+            <input type="text" name="subject" required="" />
+            <label>Subject</label>
+          </div>
+          <div className="input-field">
+            <textarea rows="7" required=""></textarea>
+            <label>Message</label>
+          </div>
+          <input className="btn" type="submit" value="Send Message" />
+        </form>
       </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default Mailingpage;
