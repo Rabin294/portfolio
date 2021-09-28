@@ -120,6 +120,36 @@ const Blogpage = () => (
           </span>
         </div>
       </div>
+      <div className="blog-item">
+        <div className="blog-content">
+          <h1 className="blog-title"> Day 8</h1>
+          <span className="blog-subtitle">
+            styled-component:
+            <br />
+            Used styled-component and @media to style and make it responsive.
+            <a
+              style={{
+                textDecoration: "underline",
+                color: "blue",
+              }}
+              target="blank"
+              href="https://styled-components.com/docs/basics#installation"
+            >
+              Click here to learn more about styled component.
+            </a>
+            <a
+              style={{
+                textDecoration: "underline",
+                color: "blue",
+              }}
+              target="blank"
+              href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media"
+            >
+              Click here to learn more about @media.
+            </a>
+          </span>
+        </div>
+      </div>
     </div>
   </div>
 );

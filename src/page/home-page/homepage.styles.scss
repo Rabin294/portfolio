@@ -3,6 +3,10 @@
   flex-direction: column;
   align-items: center;
   padding: 20px 80px;
+  @media screen and (max-width: 800px) {
+    padding: 0;
+    width: 95%;
+  }
 }
 
 .directory-menu {
@@ -11,6 +15,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  @media screen and (max-width: 800px) {
+    padding: 0;
+  }
 }
 
 .menu-item {
@@ -23,6 +30,9 @@
   justify-content: right;
   border: 1px solid black;
   margin: 0 7.5px 15px;
+  @media screen and (max-width: 800px) {
+    align-items: center;
+  }
 
   &:first-child {
     margin-right: 7.5px;
