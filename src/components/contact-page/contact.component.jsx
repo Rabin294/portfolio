@@ -17,15 +17,14 @@ const Mailingpage = () => {
         e.target,
         "user_n89LI9gpraiCCFDf9ggaM"
       )
-      .then(
-        (result) => {
-          alert("Message has been sent 👍.");
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+      .then((result) => {
+        alert("Message has been sent 👍.");
+        console.log(result.text);
+      })
+      .catch((error) => {
+        alert(`something went wrong 👎. Try again. ${error.message}`);
+        console.log(error.text);
+      });
     e.target.reset();
   }
 
