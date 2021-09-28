@@ -35,19 +35,19 @@ const Mailingpage = () => {
         <h2>Contact Us</h2>
         <form onSubmit={sendEmail}>
           <div className="input-field">
-            <input type="text" name="name" required="" />
+            <input type="text" name="name" required=" " />
             <label>Name</label>
           </div>
           <div className="input-field">
-            <input type="email" name="email" required="" />
+            <input type="email" name="email" required=" " />
             <label>Email</label>
           </div>
           <div className="input-field">
-            <input type="text" name="subject" required="" />
+            <input type="text" name="subject" required=" " />
             <label>Subject</label>
           </div>
           <div className="input-field">
-            <textarea rows="7" required=""></textarea>
+            <textarea rows="7" name="message" required=" "></textarea>
             <label>Message</label>
           </div>
           <input className="btn" type="submit" value="Send Message" />
