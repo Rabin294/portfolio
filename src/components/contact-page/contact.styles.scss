@@ -10,9 +10,9 @@
   background: #fff;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   @media screen and (max-width: 800px) {
+    top: 70%;
     width: 95%;
-    height: 520px;
-    padding: 0;
+    padding-top: 10px;
   }
 }
 

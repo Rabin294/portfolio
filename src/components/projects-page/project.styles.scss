@@ -6,6 +6,7 @@
   @media screen and (max-width: 800px) {
     width: 95%;
     padding: 0;
+    // height: 200px;
   }
 }
 
@@ -34,11 +35,9 @@
   //   &:last-child {
   //     margin-left: 7.5px;
   //   }
+
   .image {
     width: 80%;
-    @media screen and (max-width: 800px) {
-      width: 95%;
-    }
   }
   .link {
     text-decoration: underline;
@@ -69,9 +68,6 @@
       font-size: 16px;
       text-align: center;
       width: 90%;
-      @media screen and (max-width: 800px) {
-        padding: 0;
-      }
     }
   }
 }

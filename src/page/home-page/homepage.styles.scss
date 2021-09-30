@@ -21,18 +21,15 @@
 }
 
 .menu-item {
-  //   min-width: 30%;
-  //   height: 540px;
+  min-width: 30%;
+  // height: 540px;
   flex: 1 1 auto;
   display: flex;
-  // align-items: center;
-  // justify-content: center;
+  align-items: center;
+  justify-content: center;
   justify-content: right;
   border: 1px solid black;
   margin: 0 7.5px 15px;
-  @media screen and (max-width: 800px) {
-    align-items: center;
-  }
 
   &:first-child {
     margin-right: 7.5px;

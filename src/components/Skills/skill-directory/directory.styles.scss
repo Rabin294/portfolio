@@ -6,4 +6,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   border: 1px solid black;
+  @media screen and (max-width: 800px) {
+    padding-top: 10px;
+    height: 800px;
+  }
 }
