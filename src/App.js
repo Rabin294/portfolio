@@ -8,6 +8,7 @@ import Skillspage from "./components/Skills/skills-page/skills.component";
 import Blogpage from "./components/blog-page/blog.component";
 import Projectpage from "./components/projects-page/project.component";
 import Mailingpage from "./components/contact-page/contact.component";
+import Form from "../src/components/blog-page/form/Form";
 import { GlobalStyle } from "./global.styles";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/about" component={Aboutpage} />
         <Route path="/skills" component={Skillspage} />
         <Route path="/blog" component={Blogpage} />
+        <Route path="/Form" component={Form} />
         <Route path="/contact" component={Mailingpage} />
         <Route path="/projects" component={Projectpage} />
       </Switch>
