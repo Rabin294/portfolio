@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import TodoList from "./blog-list";
+import UploadImage from "./uploadImages";
+
 // import Form from "./form/Form";
 
 // import "./blog.styles.scss";
@@ -172,8 +174,9 @@ export default function Blogpage() {
         <Link className="addBlog" to="/Form">
           <button
             style={{
-              float: "left",
-              marginLeft: "150px",
+              // float: "left",
+              marginBottom: "20px",
+              marginLeft: "90px",
               color: "blue",
               cursor: "pointer",
             }}
@@ -182,6 +185,8 @@ export default function Blogpage() {
           </button>
         </Link>
       </div>
+
+      <UploadImage />
       <TodoList />
     </div>
   );

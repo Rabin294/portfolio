@@ -2,11 +2,6 @@ import React, { useState, useEffect } from "react";
 import firebase from "../../utils/firebase";
 import Todo from "./blog-body/blog-body";
 
-/**
- * @author
- * @function TodoList
- **/
-
 const TodoList = (props) => {
   const [todoList, setTodoList] = useState();
 

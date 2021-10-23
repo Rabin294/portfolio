@@ -64,14 +64,14 @@
   padding-top: 150px;
   text-align: center;
 
-  // .writeImg {
-  //   margin-top: 30px;
-  //   width: 90%;
-  //   align-items: center;
-  //   height: 250px;
-  //   border-radius: 10px;
-  //   object-fit: cover;
-  // }
+  .writeImg {
+    margin-top: 30px;
+    width: 90%;
+    align-items: center;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
 
   .writeForm {
     position: relative;
@@ -79,25 +79,25 @@
     align-items: center;
   }
 
-  // .writeFormGroup {
-  // margin-left: 220px;
-  // height: 450px;
+  .writeFormGroup {
+    margin-left: 220px;
+    height: 450px;
 
-  // border: 1px solid black;
-  // }
+    // border: 1px solid black;
+  }
 
-  // .writeIcon {
-  //   width: 25px;
-  //   height: 25px;
-  //   font-size: 20px;
-  //   border: 1px solid;
-  //   border-radius: 50%;
-  //   color: rgb(43, 40, 40);
-  //   display: flex;
-  //   align-items: center;
-  //   justify-content: center;
-  //   cursor: pointer;
-  // }
+  .writeIcon {
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    color: rgb(43, 40, 40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
 
   .writeInput {
     font-size: 30px;
