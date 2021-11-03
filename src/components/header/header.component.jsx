@@ -1,14 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ReactComponent as Logo } from "../../assets/logo.svg"; //Special syntax in React for importing SVG
+// import Logo from "../../assets/homepage.png";
 
 import "./header.styles.scss";
 
 const Header = () => (
   //Logo container when clicked will direct us to homepage
   <div className="header">
-    <Link className="logo-container" to="/">
-      HOME
+    <Link
+      style={{
+        backgroundImage: `url(${Logo})`,
+      }}
+      className="logo-container"
+      to="/"
+    >
+      {/* HOME */}
       <Logo className="logo" />
     </Link>
 

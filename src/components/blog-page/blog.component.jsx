@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import TodoList from "./blog-list";
-import UploadImage from "./uploadImages";
 
 // import Form from "./form/Form";
 
@@ -186,7 +185,6 @@ export default function Blogpage() {
         </Link>
       </div>
 
-      <UploadImage />
       <TodoList />
     </div>
   );
