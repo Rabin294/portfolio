@@ -62,7 +62,8 @@
 // ********************************************
 .blog-form {
   padding-top: 150px;
-  text-align: center;
+  align-items: center;
+  padding-left: 150px;
 
   .writeImg {
     margin-top: 30px;
@@ -79,25 +80,25 @@
     align-items: center;
   }
 
-  .writeFormGroup {
-    margin-left: 220px;
-    height: 450px;
+  // .writeFormGroup {
+  //   margin-left: 220px;
+  //   height: 450px;
 
-    // border: 1px solid black;
-  }
+  //   // border: 1px solid black;
+  // }
 
-  .writeIcon {
-    width: 25px;
-    height: 25px;
-    font-size: 20px;
-    border: 1px solid;
-    border-radius: 50%;
-    color: rgb(43, 40, 40);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
+  // .writeIcon {
+  //   width: 25px;
+  //   height: 25px;
+  //   font-size: 20px;
+  //   border: 1px solid;
+  //   border-radius: 50%;
+  //   color: rgb(43, 40, 40);
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: center;
+  //   cursor: pointer;
+  // }
 
   .writeInput {
     font-size: 30px;
@@ -124,11 +125,12 @@
   }
 
   .writeSubmit {
-    position: absolute;
-    top: 90px;
-    right: 170px;
+    // position: absolute;
+    // top: 90px;
+    // right: 170px;
     color: white;
     // background-color: rgb(65, 66, 66);
+    float: right;
     padding: 10px;
     border: none;
     border-radius: 10px;
@@ -139,7 +141,7 @@
 
     &:hover {
       color: rgb(252, 248, 248);
-      background-color: rgb(129, 127, 127);
+      background-color: rgb(235, 227, 227);
     }
   }
 }
