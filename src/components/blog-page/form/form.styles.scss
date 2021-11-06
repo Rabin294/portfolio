@@ -63,7 +63,12 @@
 .blog-form {
   padding-top: 150px;
   align-items: center;
-  padding-left: 150px;
+  padding-left: 160px;
+  @media screen and (max-width: 800px) {
+    width: 99%;
+    padding-top: 7px;
+    padding-left: 6px;
+  }
 
   .writeImg {
     margin-top: 30px;

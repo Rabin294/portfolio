@@ -28,11 +28,7 @@ export default function Todo({ todo }) {
 
   return (
     <div className="blog-body">
-      <img
-        style={{ height: "700px", width: "90%" }}
-        src={todo.imageUrl}
-        alt=""
-      />
+      <img src={todo.imageUrl} alt="" />
       <h1 className="blog-title">{todo.title}</h1>
       <h2 className="blog-content">{todo.body}</h2>
       <button onClick={deleteTodo}>Delete</button>

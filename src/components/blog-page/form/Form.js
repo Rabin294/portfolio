@@ -85,7 +85,6 @@ export default function Form() {
     const todo = {
       title,
       body,
-      // complete: false,
       imageUrl,
     };
 
@@ -110,20 +109,9 @@ export default function Form() {
             style={{ display: "none" }}
             value={image}
           /> */}
-
           <div>
-            <h1>Upload imgae</h1>
+            <h4>Upload imgae</h4>
             <input type="file" accept="image/*" onChange={readImages} />
-
-            {imageUrl
-              ? imageUrl.map(({ id, url }) => {
-                  return (
-                    <div key={id}>
-                      <img src={url} alt="" />
-                    </div>
-                  );
-                })
-              : ""}
           </div>
           <input
             onChange={handleOnChangeT}
