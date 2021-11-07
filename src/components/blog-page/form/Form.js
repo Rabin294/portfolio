@@ -8,10 +8,8 @@ import "./form.styles.scss";
 export default function Form() {
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
-  // const [imageUrl, setImageUrl] = useState([]);
-
-  // ::::::::::::::::::::::::::::::
   const [imageUrl, setImageUrl] = useState([]);
+
   const readImages = async (e) => {
     const file = e.target.files[0];
     const id = uuid();
@@ -23,34 +21,6 @@ export default function Form() {
     });
   };
 
-  //   const getImageUrl = () => {
-  //     const imageRef = firebase.database().ref("images").child("daily");
-  //     imageRef.on("value", (snapshot) => {
-  //       const imageUrls = snapshot.val();
-  //       const urls = [];
-  //       for (let id in imageUrls) {
-  //         urls.push({ id, url: imageUrls[id] });
-  //       }
-  //       const newState = [...imageUrl, ...urls];
-  //       setImageUrl(newState);
-  //     });
-  //   };
-
-  // ::::::::::::::::::::::::::::::
-
-  // useEffect(() => {
-  //   const imageRef = firebase.database().ref("images").child("daily");
-  //   imageRef.on("value", (snapshot) => {
-  //     const imageUrls = snapshot.val();
-  //     const urls = [];
-  //     for (let id in imageUrls) {
-  //       urls.push({ id, url: imageUrls[id] });
-  //     }
-  //     // const newState = [...imageUrl, ...urls];
-  //     setImageUrl(urls);
-  //   });
-  // }, []);
-
   const handleOnChangeT = (e) => {
     setTitle(e.target.value);
   };
@@ -58,28 +28,6 @@ export default function Form() {
     setBody(e.target.value);
   };
 
-  // export default function Form() {
-  //   const [title, setTitle] = useState('');
-
-  //   const handleOnChange = (e) => {
-  //     setTitle(e.target.value);
-  //   };
-  //   const createTodo = () => {
-  //     const todoRef = firebase.database().ref('Todo');
-  //     const todo = {
-  //       title,
-  //       complete: false,
-  //     };
-
-  //     todoRef.push(todo);
-  //   };
-  //   return (
-  //     <div>
-  //       <input type="text" onChange={handleOnChange} value={title} />
-  //       <button onClick={createTodo}>Add Todo</button>
-  //     </div>
-  //   );
-  // }
   const createTodo = () => {
     const todoRef = firebase.database().ref("Todo");
     const todo = {
@@ -89,6 +37,8 @@ export default function Form() {
     };
 
     todoRef.push(todo);
+
+    // {todo.title ? todoRef.push : console.log("Required field is empty")
   };
   return (
     <div className="blog-form">
@@ -120,6 +70,7 @@ export default function Form() {
             type="text"
             autoFocus={true}
             value={title}
+            required
           />
         </div>
         <div className="writeFormGroup" onChange={handleOnChangeB}>

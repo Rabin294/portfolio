@@ -1,6 +1,7 @@
 import React from "react";
 import pimage from "../../assets/pimage.png";
 import aimage from "../../assets/bg-about.webp";
+// import Video from "../../videos/video1.mp4";
 import { Link } from "react-router-dom";
 
 import "./aboutpage.styles.scss";
