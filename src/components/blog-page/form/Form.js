@@ -79,6 +79,7 @@ export default function Form() {
             placeholder="Tell your story..."
             type="text"
             autoFocus={true}
+            required
           />
         </div>
 

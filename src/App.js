@@ -1,7 +1,6 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 
-import Header from "./components/header/header.component";
 import HomePage from "./page/home-page/homepage.component";
 import Aboutpage from "./components/about-page/aboutpage.component";
 import Skillspage from "./components/Skills/skills-page/skills.component";
@@ -10,12 +9,13 @@ import Projectpage from "./components/projects-page/project.component";
 import Mailingpage from "./components/contact-page/contact.component";
 import Form from "../src/components/blog-page/form/Form";
 import { GlobalStyle } from "./global.styles";
+import Heading from "./components/Heading/heading";
 
 function App() {
   return (
     <div>
       <GlobalStyle />
-      <Header />
+      <Heading />
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/about" component={Aboutpage} />
