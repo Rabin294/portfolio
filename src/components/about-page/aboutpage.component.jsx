@@ -2,7 +2,7 @@ import React from "react";
 import pimage from "../../assets/pimage.png";
 import aimage from "../../assets/bg-about.webp";
 // import Video from "../../videos/video1.mp4";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import "./aboutpage.styles.scss";
 
@@ -24,14 +24,13 @@ const Aboutpage = () => (
       ></div>
       <h1 className="title">Rabin Karki</h1>
       <span className="subtitle">
-        My name is Rabin. I am located in Japan, Okinawa. I am a react
-        developer.
+        My name is Rabin. I am located in Japan, Okinawa. I am a self-taught
+        react developer.
         <br /> I have been learning programming since 2019.
         <br />
         I am passionate about learning new things and consider myself a fast
         learner.
-        <br />
-        Let me know If you want to know more about me.
+        <br />I consider myself as a fast learner.
       </span>
       <div
         style={{
@@ -39,10 +38,10 @@ const Aboutpage = () => (
           textTransform: "uppercase",
         }}
       >
-        <Link to="/contact">
+        {/* <Link to="/contact">
           {" "}
           <button>Contact Me</button>
-        </Link>
+        </Link> */}
       </div>
     </div>
   </div>

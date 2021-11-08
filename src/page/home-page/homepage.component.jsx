@@ -1,7 +1,7 @@
 import React from "react";
 import "./homepage.styles.scss";
 // import bimage from "../../assets/bimage.png";
-
+import { Link } from "react-router-dom";
 import backgroundVideo from "../../videos/video.mp4";
 
 const HomePage = () => (
@@ -17,7 +17,7 @@ const HomePage = () => (
       ></video>
       <h1
         style={{
-          height: "440px",
+          height: "170px",
           width: "100%",
           color: "black",
           backgroundColor: "white",
@@ -28,6 +28,19 @@ const HomePage = () => (
       >
         Welcome to my Portfolio!!
       </h1>
+      <div
+        style={{
+          color: "black",
+          textAlign: "center",
+          cursor: "pointer",
+          paddingLeft: "720px",
+        }}
+      >
+        <Link to="/contact">
+          {" "}
+          <button>Contact Me</button>
+        </Link>
+      </div>
 
       {/* <div
         style={{
