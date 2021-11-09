@@ -80,6 +80,9 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="/skills" onClick={toggle}>
             SKILLS
           </SidebarLink>
+          <SidebarLink to="/blog" onClick={toggle}>
+            BLOG
+          </SidebarLink>
           <SidebarLink to="/contact" onClick={toggle}>
             CONTACT
           </SidebarLink>

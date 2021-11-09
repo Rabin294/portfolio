@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-// import pimage from "../../assets/pimage.png";
+import pImage from "../../assets/pimage.png";
 // import aimage from "../../assets/bg-about.webp";
 import Video from "../../videos/video1.mp4";
 // import { Link } from "react-router-dom";
@@ -45,9 +45,25 @@ const HeroContent = styled.div`
   align-item: center;
 `;
 
+const HeroImage = styled.div`
+  background-image: url(${pImage});
+  border: 1px solid rgb(189, 186, 186);
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+
+  // padding: 20px 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+`;
+
 const HeroH1 = styled.h1`
   color: #fff;
-  font-size: 32px;
+  font-size: 52px;
   text-align: center;
   @media screen and (max-width: 760px) {
     font-size: 40px;
@@ -58,7 +74,7 @@ const HeroH1 = styled.h1`
 `;
 const HeroP = styled.p`
   color: #fff;
-  font-size: 29px;
+  font-size: 49px;
   text-align: center;
   @media screen and (max-width: 760px) {
     font-size: 40px;
@@ -73,17 +89,13 @@ const Aboutpage = () => (
     <HeroBg>
       <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
     </HeroBg>
+
     <HeroContent>
-      {/* <HeroImage></HeroImage>> */}
+      <HeroImage></HeroImage>
       <HeroH1>Rabin Karki</HeroH1>
       <HeroP>
-        My name is Rabin. I am located in Japan, Okinawa. I am a self-taught
-        react developer.
-        <br /> I have been learning programming since 2019.
-        <br />
-        I am passionate about learning new things and consider myself a fast
-        learner.
-        <br />I consider myself as a fast learner.
+        My name is Rabin. I am a self-taught React Developer. I am passionate
+        about learning new things and consider myself a fast learner.
       </HeroP>
     </HeroContent>
   </HeroContainer>

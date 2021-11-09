@@ -3,7 +3,7 @@ import "./homepage.styles.scss";
 // import bimage from "../../assets/bimage.png";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import backgroundVideo from "../../videos/video.mp4";
+import backgroundVideo from "../../videos/video2.mp4";
 import { MdArrowForward, MdKeyboardArrowRight } from "react-icons/md";
 
 // const Text = styled.h1`
@@ -132,12 +132,12 @@ const ArrowRight = styled(MdKeyboardArrowRight)`
 `;
 
 const Button = styled(Link)`
-  // border-radius: 50px;
+  border-radius: 50px;
   background: ${({ primary }) => (primary ? "#01BF71" : "#010606")};
   white-space: nowrap;
   padding: ${({ big }) => (big ? "14px 48px" : "12px 30px")};
   color: ${({ dark }) => (dark ? "#010606" : "#fff")};
-  font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
+  font-size: ${({ fontLarge }) => (fontLarge ? "20px" : "16px")};
   outline: none;
   border: none;
   cursor: pointer;
@@ -163,12 +163,12 @@ const HomePage = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>Welcome to my portfolio!!</HeroH1>
+        <HeroBtnWrapper>
+          <Button to="contact" onMouseEnter={onHover} onMouseLeave={onHover}>
+            Contact Me{hover ? <ArrowForward /> : <ArrowRight />}
+          </Button>
+        </HeroBtnWrapper>
       </HeroContent>
-      <HeroBtnWrapper>
-        <Button to="contact" onMouseEnter={onHover} onMouseLeave={onHover}>
-          Contact Me{hover ? <ArrowForward /> : <ArrowRight />}
-        </Button>
-      </HeroBtnWrapper>
     </HeroContainer>
   );
 };

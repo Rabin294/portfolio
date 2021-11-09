@@ -109,6 +109,9 @@ const Navbar = ({ toggle }) => (
           <NavLinks to="/skills">SKILLS</NavLinks>
         </NavItem>
         <NavItem>
+          <NavLinks to="/blog">BLOG</NavLinks>
+        </NavItem>
+        <NavItem>
           <NavLinks to="/contact">CONTACT</NavLinks>
         </NavItem>
       </NavMenu>
