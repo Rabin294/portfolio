@@ -58,36 +58,10 @@ const Projectpage = () => (
           </a>
 
           <span className="project-subtitle">
-            A blog (a truncation of "weblog")[1] is a discussion or
-            informational website published on the World Wide Web consisting of
-            discrete, often informal diary-style text entries (posts). Posts are
-            typically displayed in reverse chronological order, so that the most
-            recent post appears first, at the top of the web page. Until 2009,
-            blogs were usually the work of a single individual,[citation needed]
-            occasionally of a small group, and often covered a single subject or
-            topic. In the 2010s, "multi-author blogs" (MABs) emerged, featuring
-            the writing of multiple authors and sometimes professionally edited.
-            MABs from newspapers, other media outlets, universities, think
-            tanks, advocacy groups, and similar institutions account for an
-            increasing quantity of blog traffic. The rise of Twitter and other
-            "microblogging" systems helps integrate MABs and single-author blogs
-            into the news media. Blog can also be used as a verb, meaning to
-            maintain or add content to a blog.A blog (a truncation of
-            "weblog")[1] is a discussion or informational website published on
-            the World Wide Web consisting of discrete, often informal
-            diary-style text entries (posts). Posts are typically displayed in
-            reverse chronological order, so that the most recent post appears
-            first, at the top of the web page. Until 2009, blogs were usually
-            the work of a single individual,[citation needed] occasionally of a
-            small group, and often covered a single subject or topic. In the
-            2010s, "multi-author blogs" (MABs) emerged, featuring the writing of
-            multiple authors and sometimes professionally edited. MABs from
-            newspapers, other media outlets, universities, think tanks, advocacy
-            groups, and similar institutions account for an increasing quantity
-            of blog traffic. The rise of Twitter and other "microblogging"
-            systems helps integrate MABs and single-author blogs into the news
-            media. Blog can also be used as a verb, meaning to maintain or add
-            content to a blog.
+            This is an e-commerce project for a shopping website. In this
+            project, one can actually be able to add items to the cart and make
+            payment. This test version is created using React, Stripe API and
+            Firebase has been used for handling authentication and storage.
           </span>
         </div>
       </div>
@@ -112,35 +86,10 @@ const Projectpage = () => (
           </a>
 
           <span className="project-subtitle">
-            A blog (a truncation of "weblog")[1] is a discussion or
-            informational website published on the World Wide Web consisting of
-            discrete, often informal diary-style text entries (posts). Posts are
-            typically displayed in reverse chronological order, so that the most
-            recent post appears first, at the top of the web page. Until 2009,
-            blogs were usually the work of a single individual,[citation needed]
-            occasionally of a small group, and often covered a single subject or
-            topic. In the 2010s, "multi-author blogs" (MABs) emerged, featuring
-            the writing of multiple authors and sometimes professionally edited.
-            MABs from newspapers, other media outlets, universities, think
-            tanks, advocacy groups, and similar institutions account for an
-            increasing quantity of blog traffic. The rise of Twitter and other
-            "microblogging" systems helps integrate MABs and single-author blogs
-            into the news media. Blog can also be used as a verb, meaning to
-            maintain or add content to a blog.A blog (a truncation of
-            "weblog")[1] is a discussion or informational website published on
-            the World Wide Web consisting of discrete, often informal
-            diary-style text entries (posts). Posts are typically displayed in
-            reverse chronological order, so that the most recent post appears
-            first, at the top of the web page. Until 2009, blogs were usually
-            the work of a single individual,[citation needed] occasionally of a
-            small group, and often covered a single subject or topic. In the
-            2010s, "multi-author blogs" (MABs) emerged, featuring the writing of
-            multiple authors and sometimes professionally edited. MABs from
-            newspapers, other media outlets, universities, think tanks, advocacy
-            groups, and similar institutions account for an increasing quantity
-            of blog traffic. The rise of Twitter and other "microblogging"
-            systems helps integrate MABs and single-author blogs into the news
-            media.
+            This project is all about searching for recipes and displaying them.
+            ES6 features have been implemented throughout the project. Searching
+            for the recipe or ingredients will give 100s of recipes and the
+            necessary ingredients.
           </span>
         </div>
       </div>
