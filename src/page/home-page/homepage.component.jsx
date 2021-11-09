@@ -74,6 +74,10 @@ padding 0 38px;
 height:800px;
 position:relative;
 z-index:1;
+@media screen and (max-width: 760px) {
+  padding: 0;
+  width: 96.4%;
+}
 
 `;
 const HeroBg = styled.div`
@@ -85,6 +89,10 @@ const HeroBg = styled.div`
   width: 100%;
   height: 100%;
   overflow: none;
+  @media screen and (max-width: 760px) {
+    // padding: 0;
+    width: 100%;
+  }
 `;
 const VideoBg = styled.video`
   width: 100%;

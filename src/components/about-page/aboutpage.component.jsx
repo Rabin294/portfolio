@@ -8,15 +8,18 @@ import Video from "../../videos/video1.mp4";
 import "./aboutpage.styles.scss";
 
 const HeroContainer = styled.div`
-background:#0c0c0c;
-display:flex;
-justify-content:center;
-align-items:center;
-padding 0 38px;
-height:800px;
-position:relative;
-z-index:1;
-
+  background: #0c0c0c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 38px;
+  height: 800px;
+  position: relative;
+  z-index: 1;
+  @media screen and (max-width: 760px) {
+    // padding-left: 14px;
+    width: 77.9%;
+  }
 `;
 const HeroBg = styled.div`
   position: absolute;
@@ -59,6 +62,10 @@ const HeroImage = styled.div`
   display: block;
   margin-left: auto;
   margin-right: auto;
+  @media screen and (max-width: 760px) {
+    padding: 0;
+    width: 96.4%;
+  }
 `;
 
 const HeroH1 = styled.h1`
