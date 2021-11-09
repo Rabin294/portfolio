@@ -21,7 +21,7 @@ const Projectpage = () => (
           <a
             className="link"
             target="blank"
-            href="https://rob-card-game.netlify.app/"
+            href="https://rob-cards-game.netlify.app/"
           >
             <h3>Card-game link</h3>
           </a>
