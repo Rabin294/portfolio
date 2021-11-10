@@ -64,11 +64,33 @@
   padding-top: 150px;
   align-items: center;
   padding-left: 160px;
-  @media screen and (max-width: 800px) {
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
+    transition: 0.8s all ease;
+
     width: 99%;
-    padding-top: 7px;
-    padding-left: 6px;
+    padding-left: 17px;
+    padding-top: 2px;
   }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
+    transition: 0.8s all ease;
+    width: 90%;
+    padding-left: 76px;
+
+    @media only screen and (min-width: 1023px) and (max-width: 1366px) {
+      //Put your CSS here for 1024px to 136624px width devices(covers all width between 1024px to 1366px //
+      transition: 0.8s all ease;
+
+      width: 90%;
+      padding-left: 94px;
+    }
+  }
+  // @media screen and (max-width: 800px) {
+  //   width: 99%;
+  //   padding-top: 7px;
+  //   padding-left: 6px;
+  // }
 
   .writeImg {
     margin-top: 30px;

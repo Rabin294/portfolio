@@ -22,15 +22,24 @@ const Nav = styled.nav`
   font-size: 1.5rem;
   top: 0;
   z-index: 10;
-
-  @media screen and (max-width: 960px) {
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
     transition: 0.8s all ease;
-    width: 91.3%;
+    width: 97.3%;
   }
-  @media screen and (max-width: 768px) {
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
     transition: 0.8s all ease;
     width: 98.5%;
   }
+  // @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+  //   //Put your CSS here for 200px to 767px width devices (cover all mobile portrait width //
+  //   transition: 0.8s all ease;
+  //   width: 98.5%;
+  // }
+  // @media screen and (max-width: 768px) {
+  //   transition: 0.8s all ease;
+  //   width: 9.5%;
+  // }
 `;
 
 const NavbarContainer = styled.div`
@@ -40,6 +49,19 @@ const NavbarContainer = styled.div`
   z-index: 1;
   width: 98%;
   max-width: 1100px;
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
+    transition: 0.8s all ease;
+    width: 91%;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
+    transition: 0.8s all ease;
+    width: 89.5%;
+  }
+  // @media screen and (max-width: 960px) {
+  //   transition: 0.8s all ease;
+  //   width: 91%;
+  // }
 `;
 
 const NavLogo = styled(Link)`

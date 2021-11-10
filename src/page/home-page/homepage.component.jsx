@@ -71,13 +71,37 @@ display:flex;
 justify-content:center;
 align-items:center;
 padding 0 38px;
-height:800px;
+height:860px;
 position:relative;
 z-index:1;
-@media screen and (max-width: 760px) {
-  padding: 0;
-  width: 96.4%;
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  transition: 0.8s all ease;
+  width: 76.5%;
+  
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
+  transition: 0.8s all ease;
+  width: 90%;
+  height:950px;
+  
+  @media only screen and (min-width: 1023px) and (max-width: 1366px) {
+    //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
+    transition: 0.8s all ease;
+    width: 92%;
+    height:1300px;
+  }
+}
+// @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+//   //Put your CSS here for 200px to 767px width devices (cover all mobile portrait width //
+//   transition: 0.8s all ease;
+//   width: 98.5%;
+// }
+// @media screen and (max-width: 760px) {
+//   padding: 0;
+//   width: 96.4%;
+// }
 
 `;
 const HeroBg = styled.div`
@@ -89,10 +113,6 @@ const HeroBg = styled.div`
   width: 100%;
   height: 100%;
   overflow: none;
-  @media screen and (max-width: 760px) {
-    // padding: 0;
-    width: 100%;
-  }
 `;
 const VideoBg = styled.video`
   width: 100%;
