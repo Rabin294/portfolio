@@ -31,7 +31,7 @@ const Mailingpage = () => {
   return (
     <div>
       <div className="container">
-        <h2>Contact Us</h2>
+        <h2>Contact Me</h2>
         <form onSubmit={sendEmail}>
           <div className="input-field">
             <input type="text" name="name" required=" " />
