@@ -18,7 +18,7 @@ const HeroContainer = styled.div`
   z-index: 1;
   @media only screen and (min-width: 200px) and (max-width: 767px) {
     transition: 0.8s all ease;
-    width: 76.5%;
+    width: 71.5%;
   }
 
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
