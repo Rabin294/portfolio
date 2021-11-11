@@ -79,6 +79,7 @@ const HeroContainer = styled.div`
     transition: 0.8s all ease;
     width: 71.3%;
     padding: 0 46px;
+    height: 560px;
   }
 
   @media only screen and (min-width: 768px) and (max-width: 1024px) {

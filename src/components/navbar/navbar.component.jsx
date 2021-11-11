@@ -14,7 +14,7 @@ const Nav = styled.nav`
   width: 99.4%;
   align-self: center;
   // margin-top:-80px
-  // padding-right: 10px;
+  padding-right: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,6 +25,7 @@ const Nav = styled.nav`
   @media only screen and (min-width: 200px) and (max-width: 767px) {
     transition: 0.8s all ease;
     width: 100%;
+    padding-right: 0;
   }
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
     //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
