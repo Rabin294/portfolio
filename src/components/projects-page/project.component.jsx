@@ -29,7 +29,7 @@ const Projectpage = () => (
           <span className="project-subtitle">
             This is a fun card game. The game has 2 players, playing in rounds -
             In each turn, a player flips a card as many times as he/she wishes.
-            Each result get added to his ROUND score - BUT, if the player rolls
+            Each result get added to his ROUND score - BUT, if the player flips
             a 1(A) or 11(J), all his ROUND score gets lost. After that, it's the
             next player's turn - The player can choose to 'Hold', which means
             that his ROUND score gets added to his GLOBAL score. Players take a

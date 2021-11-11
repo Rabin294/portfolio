@@ -31,6 +31,7 @@ const Nav = styled.nav`
     //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
     transition: 0.8s all ease;
     width: 98.5%;
+    padding-right: 0;
   }
   // @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
   //   //Put your CSS here for 200px to 767px width devices (cover all mobile portrait width //
