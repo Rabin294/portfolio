@@ -66,7 +66,7 @@ import { MdArrowForward, MdKeyboardArrowRight } from "react-icons/md";
 // :::::::::::::::::::::::::::::::::::::::: Modified Using styled-component::::::::::::::::::::::::::::::::::::::::::
 
 const HeroContainer = styled.div`
-background:#0c0c0c;
+background:black;
 display:flex;
 justify-content:center;
 align-items:center;

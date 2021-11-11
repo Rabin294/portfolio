@@ -8,7 +8,7 @@ import Video from "../../videos/video1.mp4";
 import "./aboutpage.styles.scss";
 
 const HeroContainer = styled.div`
-  background: #0c0c0c;
+  background: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +50,7 @@ const HeroBg = styled.div`
   overflow: none;
 `;
 const VideoBg = styled.video`
-  width: 95%;
+  width: 100%;
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
