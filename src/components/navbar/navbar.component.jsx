@@ -14,7 +14,7 @@ const Nav = styled.nav`
   width: 99.4%;
   align-self: center;
   // margin-top:-80px
-  padding-right: 10px;
+  // padding-right: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +24,7 @@ const Nav = styled.nav`
   z-index: 10;
   @media only screen and (min-width: 200px) and (max-width: 767px) {
     transition: 0.8s all ease;
-    width: 93%;
+    width: 100%;
   }
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
     //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
@@ -51,7 +51,7 @@ const NavbarContainer = styled.div`
   max-width: 1100px;
   @media only screen and (min-width: 200px) and (max-width: 767px) {
     transition: 0.8s all ease;
-    width: 91%;
+    width: 89%;
   }
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
     //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
@@ -112,10 +112,6 @@ const NavLinks = styled(Link)`
   color: white;
   margin-top: 12px;
   padding: 10px 30px;
-  @media screen and (max-width: 800px) {
-    padding: 6px;
-    font-size: medium;
-  }
 `;
 
 const Navbar = ({ toggle }) => (
