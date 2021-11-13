@@ -18,14 +18,14 @@ const HeroContainer = styled.div`
   z-index: 1;
   @media only screen and (min-width: 200px) and (max-width: 767px) {
     transition: 0.8s all ease;
-    width: 71.5%;
+    width: 81.7%;
     padding: 0 45.5px;
   }
 
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
     //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
     transition: 0.8s all ease;
-    width: 90%;
+    width: 90.8%;
     height: 950px;
 
     @media only screen and (min-width: 1023px) and (max-width: 1366px) {

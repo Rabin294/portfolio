@@ -11,7 +11,7 @@ const Nav = styled.nav`
   background: #000;
 
   height: 80px;
-  width: 99.4%;
+  width: 99.5%;
   align-self: center;
   // margin-top:-80px
   padding-right: 10px;
@@ -30,14 +30,16 @@ const Nav = styled.nav`
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
     //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
     transition: 0.8s all ease;
-    width: 98.5%;
-    padding-right: 0;
+    width: 98.7%;
+    padding-right: 10px;
+
+    @media only screen and (min-width: 1025px) and (max-width: 1366px) {
+      transition: 0.8s all ease;
+      padding-right: 0;
+      //   width: 99.5%;
+    }
   }
-  // @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
-  //   //Put your CSS here for 200px to 767px width devices (cover all mobile portrait width //
-  //   transition: 0.8s all ease;
-  //   width: 98.5%;
-  // }
+
   // @media screen and (max-width: 768px) {
   //   transition: 0.8s all ease;
   //   width: 9.5%;
