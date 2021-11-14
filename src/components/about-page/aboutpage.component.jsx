@@ -87,10 +87,9 @@ const HeroImage = styled.div`
   display: block;
   margin-left: auto;
   margin-right: auto;
-  @media screen and (max-width: 760px) {
-    padding: 0;
-    width: 96.4%;
-  }
+  // @media screen and (max-width: 480px) {
+  //   padding: 0;
+  // }
 `;
 
 const HeroH1 = styled.h1`
