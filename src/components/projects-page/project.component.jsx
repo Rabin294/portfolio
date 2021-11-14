@@ -13,7 +13,7 @@ const Projectpage = () => (
           <div
             style={{
               backgroundImage: `url(${cardgame})`,
-              backgroundSize: "cover",
+              backgroundSize: "contain",
               height: "470px",
             }}
             className="image"
@@ -44,7 +44,7 @@ const Projectpage = () => (
           <div
             style={{
               backgroundImage: `url(${project1})`,
-              backgroundSize: "cover",
+              backgroundSize: "contain",
               height: "470px",
             }}
             className="image"
@@ -71,7 +71,8 @@ const Projectpage = () => (
           <div
             style={{
               backgroundImage: `url(${project2})`,
-              backgroundSize: "cover",
+              backgroundSize: "contain",
+              backgroundRepeat: "noRepeat",
               height: "470px",
             }}
             className="image"

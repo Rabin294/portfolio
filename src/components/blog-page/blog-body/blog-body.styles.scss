@@ -16,13 +16,12 @@
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
     //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
     transition: 0.8s all ease;
-    width: 70%;
+    width: 73%;
 
-    @media only screen and (min-width: 1023px) and (max-width: 1366px) {
+    @media only screen and (min-width: 1024px) and (max-width: 1366px) {
       //Put your CSS here for 1024px to 136624px width devices(covers all width between 1024px to 1366px //
       transition: 0.8s all ease;
-
-      width: 77%;
+      width: 73%;
     }
   }
   // @media screen and (max-width: 800px) {
