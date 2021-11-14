@@ -75,35 +75,38 @@ const HeroContainer = styled.div`
   height: 860px;
   position: relative;
   z-index: 1;
-  @media only screen and (min-width: 200px) and (max-width: 767px) {
+  @media screen and (min-width: 480px) {
     transition: 0.8s all ease;
-    width: 71.3s%;
-    padding: 0 46px;
+    width: 100%;
+    padding: 0 5px;
+  }
+  // @media only screen and (min-width: 200px) and (max-width: 767px) {
+  //   transition: 0.8s all ease;
+  //   width: 71.3s%;
+  //   padding: 0 46px;
    
-  }
+  // }
 
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
-    transition: 0.8s all ease;
-    width: 90.8%;
-    height: 950px;
+  // @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  //   //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
+  //   transition: 0.8s all ease;
+  //   width: 90.8%;
+  //   height: 950px;
+  //   padding: 0 44.5px;
 
-    @media only screen and (min-width: 1025px) and (max-width: 1366px) {
-      //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
-      transition: 0.8s all ease;
-      width: 92%;
-      height: 1300px;
-    }
-  }
+  //   @media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  //     //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
+  //     transition: 0.8s all ease;
+  //     width: 92%;
+  //     height: 1300px;
+  //   }
+  // }
   // @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
   //   //Put your CSS here for 200px to 767px width devices (cover all mobile portrait width //
   //   transition: 0.8s all ease;
   //   width: 98.5%;
   // }
-  // @media screen and (max-width: 760px) {
-  //   padding: 0;
-  //   width: 96.4%;
-  // }
+  
 `;
 const HeroBg = styled.div`
   position: absolute;

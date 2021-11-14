@@ -22,28 +22,27 @@ const Nav = styled.nav`
   font-size: 1.5rem;
   top: 0;
   z-index: 10;
-  @media only screen and (min-width: 200px) and (max-width: 767px) {
+  // @media only screen and (min-width: 200px) and (max-width: 767px) {
+  //   transition: 0.8s all ease;
+  //   width: 100%;
+  //   padding-right: 0;
+  // }
+  // @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  //   //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
+  //   transition: 0.8s all ease;
+  //   width: 98.7%;
+  //   padding-right: 10px;
+
+  //   @media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  //     transition: 0.8s all ease;
+  //     padding-right: 0;
+  //     //   width: 99.5%;
+  //   }
+  // }
+  @media screen and (min-width: 480px) {
     transition: 0.8s all ease;
     width: 100%;
-    padding-right: 0;
   }
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
-    transition: 0.8s all ease;
-    width: 98.7%;
-    padding-right: 10px;
-
-    @media only screen and (min-width: 1025px) and (max-width: 1366px) {
-      transition: 0.8s all ease;
-      padding-right: 0;
-      //   width: 99.5%;
-    }
-  }
-
-  // @media screen and (max-width: 768px) {
-  //   transition: 0.8s all ease;
-  //   width: 9.5%;
-  // }
 `;
 
 const NavbarContainer = styled.div`

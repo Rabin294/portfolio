@@ -16,25 +16,31 @@ const HeroContainer = styled.div`
   height: 860px;
   position: relative;
   z-index: 1;
-  @media only screen and (min-width: 200px) and (max-width: 767px) {
+  @media screen and (min-width: 480px) {
     transition: 0.8s all ease;
-    width: 81.7%;
-    padding: 0 45.5px;
+    width: 100%;
+    padding: 0 5px;
   }
+  // @media only screen and (min-width: 200px) and (max-width: 767px) {
+  //   transition: 0.8s all ease;
+  //   width: 81.7%;
+  //   padding: 0 61.5px;
+  // }
 
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
-    transition: 0.8s all ease;
-    width: 90.8%;
-    height: 950px;
+  // @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  //   //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
+  //   transition: 0.8s all ease;
+  //   width: 90.8%;
+  //   height: 950px;
+  //   padding: 0 44.5px;
 
-    @media only screen and (min-width: 1023px) and (max-width: 1366px) {
-      //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
-      transition: 0.8s all ease;
-      width: 92%;
-      height: 1300px;
-    }
-  }
+  //   @media only screen and (min-width: 1023px) and (max-width: 1366px) {
+  //     //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
+  //     transition: 0.8s all ease;
+  //     width: 92%;
+  //     height: 1300px;
+  //   }
+  // }
   // @media screen and (max-width: 760px) {
   //   // padding-left: 14px;
   //   width: 77.9%;
