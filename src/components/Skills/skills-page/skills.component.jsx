@@ -84,3 +84,34 @@ const Skillspage = () => (
 );
 
 export default Skillspage;
+
+// return (
+//   <div className="skill">
+//     <div className="skill-content">
+//       <img src={html} alt="" />
+//       {/* <h1 className="skill-title">HTML</h1> */}
+//     </div>
+
+//     <div className="skill-content">
+//       <img src={scss} alt="" />
+//       {/* <h1 className="skill-title">SCSS</h1> */}
+//     </div>
+
+//     <div className="skill-content">
+//       {" "}
+//       <img src={javascript} alt="" />
+//       {/* <h1 className="skill-title">JavaScript</h1> */}
+//     </div>
+
+//     <div className="skill-content">
+//       {" "}
+//       <img src={html} alt="" />
+//       {/* <h1 className="skill-title">React</h1> */}
+//     </div>
+
+//     <div className="skill-content">
+//       {" "}
+//       <img src={react} alt="" />
+//       {/* <h1 className="skill-title">React</h1> */}
+//     </div>
+//   </div>

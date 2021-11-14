@@ -83,7 +83,7 @@ const HeroImage = styled.div`
   // padding: 20px 35px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 410px 410px;
+  background-size: 400px 405px;
   display: block;
   margin-left: auto;
   margin-right: auto;

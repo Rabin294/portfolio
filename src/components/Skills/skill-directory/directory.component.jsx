@@ -11,29 +11,33 @@ class Directory extends React.Component {
       sections: [
         {
           title: "html",
-          imageUrl: "https://www.svgrepo.com/show/58911/html.svg",
+          imageUrl:
+            "https://i.postimg.cc/brx1rT0p/Screen-Shot-2021-09-28-at-19-36-58.png",
           id: 1,
-        },
-        {
-          title: "css",
-          imageUrl: "https://cdn.svgporn.com/logos/css-3.svg",
-          id: 2,
         },
         {
           title: "scss",
           imageUrl:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoJGt-1CbUlZPgGh_GYwEEipQZ35kO0L344jymj33Bp4t6rqOHc15xhqD2NSj84_eYnMo&usqp=CAU",
+            "https://i.postimg.cc/fRGWqNnq/Screen-Shot-2021-09-28-at-19-37-34.png",
+          id: 2,
+        },
+        {
+          title: "css",
+          imageUrl:
+            "https://i.postimg.cc/nzHXTJqb/Screen-Shot-2021-11-14-at-14-29-03.png",
           id: 3,
         },
         {
           title: "JavaScript",
-          imageUrl: "https://cdn.svgporn.com/logos/javascript.svg",
+          imageUrl:
+            "https://i.postimg.cc/rmJ8pRd7/Screen-Shot-2021-09-28-at-19-38-36.png",
           size: "large",
           id: 4,
         },
         {
           title: "React",
-          imageUrl: "https://cdn.svgporn.com/logos/react.svg",
+          imageUrl:
+            "https://i.postimg.cc/SR1k60fr/Screen-Shot-2021-09-28-at-19-40-04.png",
           size: "large",
           id: 5,
         },
