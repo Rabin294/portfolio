@@ -1,36 +1,30 @@
 .blog-body {
   text-align: center;
   padding: 10px 50px;
+  width: 60%;
+  margin: auto;
+  border: 1px solid rgb(224, 217, 217);
 
-  width: 85%;
-  margin-left: 90px;
-  border: 1px solid black;
-  @media only screen and (min-width: 200px) and (max-width: 767px) {
-    transition: 0.8s all ease;
+  // @media only screen and (min-width: 200px) and (max-width: 767px) {
+  //   transition: 0.8s all ease;
 
-    width: 73%;
-    margin-left: 11px;
-    padding-top: 20px;
-  }
-
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
-    transition: 0.8s all ease;
-    width: 73%;
-
-    @media only screen and (min-width: 1024px) and (max-width: 1366px) {
-      //Put your CSS here for 1024px to 136624px width devices(covers all width between 1024px to 1366px //
-      transition: 0.8s all ease;
-      width: 73%;
-    }
-  }
-  // @media screen and (max-width: 800px) {
-  //   padding: 7px;
-  //   width: 95%;
-  //   margin: 0;
-
-  //   // text-align: center;
+  //   width: 73%;
+  //   margin-left: 11px;
+  //   padding-top: 20px;
   // }
+
+  // @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  //   //Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px //
+  //   transition: 0.8s all ease;
+  //   width: 73%;
+
+  //   @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  //     //Put your CSS here for 1024px to 136624px width devices(covers all width between 1024px to 1366px //
+  //     transition: 0.8s all ease;
+  //     width: 73%;
+  //   }
+  // }
+
   .img {
     width: 80%;
     height: 650px;
@@ -38,7 +32,7 @@
     @media only screen and (min-width: 200px) and (max-width: 767px) {
       transition: 0.8s all ease;
 
-      width: 100%;
+      width: 70%;
       height: 150px;
       margin-left: 2px;
       padding-top: 20px;
